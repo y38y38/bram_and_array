@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_signal_controller_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_signal_controller" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1133615fs"></ZoomEndTime>
+      <Cursor1Time time="432000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="345"></NameColumnWidth>
+      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject type="logic" fp_name="/test_signal_controller/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/input_ram_address">
+      <obj_property name="ElementShortName">input_ram_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_ram_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/output_ram_address">
+      <obj_property name="ElementShortName">output_ram_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_ram_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/status">
+      <obj_property name="ElementShortName">status[3:0]</obj_property>
+      <obj_property name="ObjectShortName">status[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/dinb">
+      <obj_property name="ElementShortName">dinb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/enb">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/rstb">
+      <obj_property name="ElementShortName">rstb</obj_property>
+      <obj_property name="ObjectShortName">rstb</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/web">
+      <obj_property name="ElementShortName">web[3:0]</obj_property>
+      <obj_property name="ObjectShortName">web[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/STEP">
+      <obj_property name="ElementShortName">STEP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STEP[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/TEST_TIME">
+      <obj_property name="ElementShortName">TEST_TIME[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TEST_TIME[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/state">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/read_counter">
+      <obj_property name="ElementShortName">read_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/signal_controller_inst/calc_start">
+      <obj_property name="ElementShortName">calc_start</obj_property>
+      <obj_property name="ObjectShortName">calc_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/signal_controller_inst/calc_output_data_enable">
+      <obj_property name="ElementShortName">calc_output_data_enable</obj_property>
+      <obj_property name="ObjectShortName">calc_output_data_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/signal_controller_inst/calc_inst/INPUT_DATA_ENABLE">
+      <obj_property name="ElementShortName">INPUT_DATA_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA_ENABLE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/signal_controller_inst/calc_inst/OUTPUT_DATA_ENABLE">
+      <obj_property name="ElementShortName">OUTPUT_DATA_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA_ENABLE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/calc_inst/OUTPUT_DATA">
+      <obj_property name="ElementShortName">OUTPUT_DATA[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA[0:7][0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/calc_inst/output_data">
+      <obj_property name="ElementShortName">output_data[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data[0:7][0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/DOUTB">
+      <obj_property name="ElementShortName">DOUTB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUTB[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/DINB">
+      <obj_property name="ElementShortName">DINB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DINB[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/calc_inst/INPUT_DATA">
+      <obj_property name="ElementShortName">INPUT_DATA[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA[0:7][0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/clkb">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/addrb">
+      <obj_property name="ElementShortName">addrb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/doutb">
+      <obj_property name="ElementShortName">doutb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/ram_address">
+      <obj_property name="ElementShortName">ram_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/block">
+      <obj_property name="ElementShortName">block[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">block[0:7][0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/signal_controller_inst/calc_inst/CLOCK">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/signal_controller_inst/calc_inst/RESET">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/calc_inst/output_data">
+      <obj_property name="ElementShortName">output_data[0:7][0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data[0:7][0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/addrb">
+      <obj_property name="ElementShortName">addrb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/clkb">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/dinb">
+      <obj_property name="ElementShortName">dinb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/doutb">
+      <obj_property name="ElementShortName">doutb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/enb">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_signal_controller/rstb">
+      <obj_property name="ElementShortName">rstb</obj_property>
+      <obj_property name="ObjectShortName">rstb</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/web">
+      <obj_property name="ElementShortName">web[3:0]</obj_property>
+      <obj_property name="ObjectShortName">web[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_signal_controller/signal_controller_inst/write_counter">
+      <obj_property name="ElementShortName">write_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_counter[7:0]</obj_property>
+   </wvobject>
+</wave_config>
